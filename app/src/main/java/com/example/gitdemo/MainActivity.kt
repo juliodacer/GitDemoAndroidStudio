@@ -7,5 +7,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        loadUI();
+
+    }
+
+    private fun loadUI() {
+        //Logica para crear la UI
     }
 }
